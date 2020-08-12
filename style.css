@@ -31,29 +31,29 @@ body {
 	font-size: 18px;
 }
 .services {
-	position:fixed;
+	position: fixed;
 	top: 33%;
 	left: 45%;
-	z-index:1;
-	width:1000px;
-	height:500px;
-	margin:-50px 0 0 -500px;
-	overflow:hidden;
+	z-index: 1;
+	width: 1000px;
+	height: 500px;
+	margin: -50px 0 0 -500px;
+	overflow: hidden;
 }
 .background {
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	z-index:2;
-	background:url('img/bg.png') no-repeat center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background: url('img/bg.png') no-repeat center;
 }
 .slider {
-	position:absolute;
+	position: absolute;
 	padding: 0px 100px;
-	width:100%;
-	height:100%;
+	width: 100%;
+	height: 100%;
 	transition: all 1s ease 0s;
 }
 .slider__item {
@@ -71,7 +71,7 @@ body {
 	position: absolute;
 	top: 100px;
 	left: 500px;
-	z-index:3;
+	z-index: 3;
 }
 .arrows .prev {
 	position: absolute;
